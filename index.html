@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="Portfolio" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,12 +16,81 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/b18b5e2fa2.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
     <title>Portfolio</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #89b0ae;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Kristina</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html">Contact me</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
     <div class="container">
-      <h1>Heading</h1>
+      <div class="header"><h1>Heading</h1></div>
+      <div class="main"></div>
+
+      <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+ 
+        <h3>Work inquiry</h3><p class="text-muted">Let's work together</p></div>
+
+        </div>
+        <div><a class="btn btn-branding mt-3" href="/contact.html" title="Contact Kristina">Contact me</a></div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            class="email-link"
+            href="mailto:kristina@gmail.com"
+            title="Email Kristina"
+            >kristina@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://github.com/mARTilda-art"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fab fa-github" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://www.xing.com/profile/Kristina_Wittig2/cv"
+            target="_blank"
+            title="Xing Profile"
+            ><i class="fab fa-xing" aria-hidden="true"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/m.art.ilda/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fab fa-instagram" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
     </div>
     <script src="src/app.js"></script>
   </body>
