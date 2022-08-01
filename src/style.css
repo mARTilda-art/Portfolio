@@ -1,4 +1,4 @@
-.root {
+:root {
   --primary-color: #bee3db;
   --secondary-color: #89b0ae;
   --tertiary-color: #555b6e;
@@ -10,8 +10,25 @@ body {
   background-color: var(--background-color);
   font: Poppins;
   text-align: center;
+  line-height: 1.5;
 }
 
-footer .social-links {
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .btn-branding {
+  background: var(--primary-color);
+}
+
+footer .social-link {
   color: var(--tertiary-color);
+  margin: 0 20px;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
