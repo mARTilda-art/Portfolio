@@ -116,3 +116,7 @@ footer .email-link {
   color: var(--tertiary-color);
   font-weight: bold;
 }
+
+work-box .btn-branding {
+  font-size: 12px;
+}
