@@ -11,6 +11,12 @@ body {
   font: Poppins;
   text-align: center;
   line-height: 1.5;
+  color: var(--tertiary-color);
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -18,10 +24,36 @@ h3 {
   color: var(--tertiary-color);
 }
 
+p {
+  line-height: 30px;
+}
+
+hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--tertiary-color);
+}
+
+ul {
+  list-style: none;
+}
+
 .btn-branding {
-  background: var(--tertiary-color);
+  background: var(--secondary-color);
   border-radius: 4px;
-  color: var(--background-color);
+  color: var(--tertiary-color);
+  font-weight: bold;
   text-decoration: none;
   font-size: 18px;
   line-height: 27px;
@@ -43,6 +75,7 @@ h3 {
   font-weight: 400;
   text-align: center;
   vertical-align: middle;
+  cursor: pointer;
   user-select: none;
   border: 1px solid transparent;
 }
@@ -55,6 +88,12 @@ footer .contact-box {
 
 footer .btn-branding {
   background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--tertiary-color);
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
 footer .social-links {
