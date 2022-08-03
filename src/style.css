@@ -77,7 +77,7 @@ ul {
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
-  border: 1px solid transparent;
+  border: 1px solid var(--tertiary-color);
 }
 
 footer .contact-box {
@@ -119,4 +119,8 @@ footer .email-link {
 
 work-box .btn-branding {
   font-size: 12px;
+}
+
+.title-portfolio {
+  font-size: 46px;
 }
